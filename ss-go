@@ -1,0 +1,4 @@
+wget -c http://dl.teddysun.com/shadowsocks/shadowsocks-server-linux64-1.2.1.gz
+gzip -d shadowsocks-server-linux64-1.2.1.gz
+chmod +x shadowsocks-server-linux64-1.2.1
+mv -f shadowsocks-server-linux64-1.2.1 /usr/bin/shadowsocks-server
